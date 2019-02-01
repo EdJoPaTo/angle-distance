@@ -1,6 +1,6 @@
 {
 	"name": "angle-distance",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Calculates the difference between two angles",
 	"license": "MIT",
 	"repository": "EdJoPaTo/angle-distance",
