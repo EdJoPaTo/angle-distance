@@ -1,0 +1,45 @@
+{
+	"name": "angle-distance",
+	"version": "0.0.0",
+	"description": "Calculates the difference between two angles",
+	"license": "MIT",
+	"repository": "EdJoPaTo/angle-distance",
+	"author": {
+		"name": "Edgar Toll",
+		"email": "edjopato@gmail.com",
+		"url": "edjopato.de"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"build": "rm -rf dist && tsc",
+		"lint": "tslint --format stylish --project .",
+		"prepare": "npm run build && rm -rf dist/tests",
+		"pretest": "npm run build",
+		"test": "npm run lint && nyc ava dist/tests"
+	},
+	"main": "dist/index.js",
+	"files": [
+		"dist"
+	],
+	"types": "dist/index.d.ts",
+	"keywords": [
+		"arc",
+		"angle",
+		"angular",
+		"degree",
+		"radian",
+		"distance",
+		"difference"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^0.2.0",
+		"ava": "^1.2.0",
+		"nyc": "^12.0.0",
+		"tslint": "^5.12.1",
+		"tslint-xo": "^0.12.0",
+		"typescript": "^3.3.1"
+	}
+}
