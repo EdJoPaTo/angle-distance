@@ -13,9 +13,9 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"build": "rm -rf dist && tsc",
+		"build": "del dist && tsc",
 		"lint": "tslint --format stylish --project .",
-		"prepare": "npm run build && rm -rf dist/tests",
+		"prepare": "npm run build && del dist/tests",
 		"pretest": "npm run build",
 		"test": "npm run lint && nyc ava dist/tests"
 	},
@@ -37,6 +37,7 @@
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "^0.2.0",
 		"ava": "^1.2.0",
+		"del-cli": "^1.1.0",
 		"nyc": "^12.0.0",
 		"tslint": "^5.12.1",
 		"tslint-xo": "^0.12.0",
