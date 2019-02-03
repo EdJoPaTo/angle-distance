@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {degree, radian} from '..';
+import {degree, radian} from '../src';
 
 test('degree positive', t => {
 	t.is(degree(0, 10), 10);
