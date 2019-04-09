@@ -1,4 +1,10 @@
-# angle-distance [![Build Status](https://travis-ci.com/EdJoPaTo/angle-distance.svg?branch=master)](https://travis-ci.com/EdJoPaTo/angle-distance)
+# angle-distance
+
+[![NPM Version](https://img.shields.io/npm/v/angle-distance.svg)](https://www.npmjs.com/package/angle-distance)
+[![node](https://img.shields.io/node/v/angle-distance.svg)](https://www.npmjs.com/package/angle-distance)
+[![Build Status](https://travis-ci.org/EdJoPaTo/angle-distance.svg?branch=master)](https://travis-ci.org/EdJoPaTo/angle-distance)
+[![Dependency Status](https://david-dm.org/EdJoPaTo/angle-distance/status.svg)](https://david-dm.org/EdJoPaTo/angle-distance)
+[![Dev Dependency Status](https://david-dm.org/EdJoPaTo/angle-distance/dev-status.svg)](https://david-dm.org/EdJoPaTo/angle-distance?type=dev)
 
 > Calculates the difference between two angles
 
