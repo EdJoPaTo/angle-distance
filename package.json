@@ -13,16 +13,16 @@
 		"node": ">=10"
 	},
 	"scripts": {
-		"build": "del dist && tsc",
+		"build": "del-cli dist && tsc",
 		"prepare": "npm run build",
 		"test": "tsc --sourceMap && xo && nyc ava"
 	},
-	"main": "dist/index.js",
+	"main": "dist/source",
 	"files": [
 		"dist/source",
 		"!*.test.*"
 	],
-	"types": "dist/index.d.ts",
+	"types": "dist/source",
 	"keywords": [
 		"arc",
 		"angle",
