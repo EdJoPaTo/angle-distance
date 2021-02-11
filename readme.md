@@ -66,7 +66,3 @@ Type: `number`
 
 For example with degree the maximum is 360° as it is the same as 0°.
 The same goes for radian with 2 * Math.PI as it is the same as 0.
-
-## License
-
-MIT © [Edgar Toll](https://edjopato.de)
