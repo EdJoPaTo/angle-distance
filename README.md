@@ -2,18 +2,14 @@
 
 [![NPM Version](https://img.shields.io/npm/v/angle-distance.svg)](https://www.npmjs.com/package/angle-distance)
 [![node](https://img.shields.io/node/v/angle-distance.svg)](https://www.npmjs.com/package/angle-distance)
-[![Dependency Status](https://david-dm.org/EdJoPaTo/angle-distance/status.svg)](https://david-dm.org/EdJoPaTo/angle-distance)
-[![Dev Dependency Status](https://david-dm.org/EdJoPaTo/angle-distance/dev-status.svg)](https://david-dm.org/EdJoPaTo/angle-distance?type=dev)
 
 > Calculates the difference between two angles
 
-
 ## Install
 
+```bash
+npm install angle-distance
 ```
-$ npm install angle-distance
-```
-
 
 ## Usage
 
@@ -32,7 +28,6 @@ angleDistance.degree(350, 10);
 angleDistance.radian(-Math.PI / 2, Math.PI / 2);
 //=> 3.1415…
 ```
-
 
 ## API
 
