@@ -1,5 +1,4 @@
 import test from 'ava';
-
 import {degree, radian} from '../source/index.js';
 
 test('degree positive', t => {
