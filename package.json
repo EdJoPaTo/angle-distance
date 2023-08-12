@@ -12,7 +12,10 @@
 		"difference"
 	],
 	"license": "MIT",
-	"repository": "EdJoPaTo/angle-distance",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/EdJoPaTo/angle-distance.git"
+	},
 	"author": {
 		"name": "EdJoPaTo",
 		"email": "angle-distance-npm-package@edjopato.de",
@@ -21,19 +24,19 @@
 	"scripts": {
 		"build": "del-cli dist && tsc",
 		"prepack": "npm run build",
-		"test": "tsc --sourceMap && xo && nyc ava"
+		"test": "tsc --sourceMap && xo && c8 --all ava"
 	},
-	"type": "commonjs",
+	"type": "module",
 	"engines": {
 		"node": ">=14"
 	},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^3.0.0",
+		"@sindresorhus/tsconfig": "^4.0.0",
 		"ava": "^5.0.1",
+		"c8": "^8.0.1",
 		"del-cli": "^5.0.0",
-		"nyc": "^15.1.0",
 		"typescript": "^5.0.2",
-		"xo": "^0.54.0"
+		"xo": "^0.55.0"
 	},
 	"files": [
 		"dist/source",
@@ -41,13 +44,6 @@
 	],
 	"main": "./dist/source/index.js",
 	"types": "./dist/source/index.d.ts",
-	"nyc": {
-		"all": true,
-		"reporter": [
-			"lcov",
-			"text"
-		]
-	},
 	"xo": {
 		"rules": {
 			"@typescript-eslint/prefer-readonly-parameter-types": "error",
