@@ -1,5 +1,5 @@
 import test from 'ava';
-import {degree, radian} from '../source/index.js';
+import {degree, radian} from './index.js';
 
 test('degree positive', t => {
 	t.is(degree(0, 10), 10);
