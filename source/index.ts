@@ -1,12 +1,11 @@
 export function general(start: number, end: number, maximum: number): number {
 	let difference = end - start;
-
-	while (Math.abs(difference) > maximum / 2) {
-		if (difference > 0) {
-			difference -= maximum;
-		} else {
-			difference += maximum;
-		}
+	difference %= maximum;
+	const halfMax = maximum / 2;
+	if (difference > halfMax) {
+		difference -= maximum;
+	} else if (difference < -halfMax) {
+		difference += maximum;
 	}
 
 	return difference;
