@@ -14,7 +14,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/EdJoPaTo/angle-distance.git"
+		"url": "git+https://github.com/EdJoPaTo/angle-distance.git"
 	},
 	"author": {
 		"name": "EdJoPaTo",
