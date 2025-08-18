@@ -14,7 +14,7 @@ npm install angle-distance
 ## Usage
 
 ```js
-import * as angleDistance from 'angle-distance';
+import * as angleDistance from "angle-distance";
 
 angleDistance.degree(10, 30);
 //=> 20
