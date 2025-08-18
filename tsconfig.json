@@ -1,11 +1,23 @@
 {
-	"extends": "@sindresorhus/tsconfig",
-	"include": [
-		"source"
-	],
 	"compilerOptions": {
-		"target": "ES2019", // Node.js 12
-		"lib": ["ES2019"],
-		"outDir": "dist"
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "node16",
+		"moduleDetection": "force",
+		"noEmitOnError": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"noUncheckedSideEffectImports": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"outDir": "dist",
+		"rewriteRelativeImportExtensions": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "es2019", // Node.js 12
+		"verbatimModuleSyntax": true
 	}
 }

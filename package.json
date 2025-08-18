@@ -31,7 +31,6 @@
 		"node": ">=12"
 	},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^7.0.0",
 		"@types/node": "^18.19.3",
 		"c8": "^10.1.2",
 		"del-cli": "^6.0.0",
