@@ -1,6 +1,6 @@
 import {strictEqual} from 'node:assert';
 import {test} from 'node:test';
-import {degree, radian} from './index.js';
+import {degree, radian} from './index.ts';
 
 await test('degree positive', () => {
 	strictEqual(degree(0, 10), 10);
