@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"declaration": true,
-		"forceConsistentCasingInFileNames": true,
+		"erasableSyntaxOnly": true,
+		"exactOptionalPropertyTypes": true,
 		"module": "node16",
 		"moduleDetection": "force",
 		"noEmitOnError": true,
@@ -10,14 +11,14 @@
 		"noImplicitReturns": true,
 		"noPropertyAccessFromIndexSignature": true,
 		"noUncheckedIndexedAccess": true,
-		"noUncheckedSideEffectImports": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"outDir": "dist",
 		"rewriteRelativeImportExtensions": true,
+		"rootDir": "./source",
 		"skipLibCheck": true,
-		"strict": true,
 		"target": "es2019", // Node.js 12
+		"types": ["node"],
 		"verbatimModuleSyntax": true
 	}
 }
